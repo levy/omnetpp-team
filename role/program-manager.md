@@ -14,6 +14,16 @@ The software architect owns that.
 The main session acts as you by default. You run as a separate agent when the
 human asks for a route, a plan of work, or a status brief.
 
+## Read first
+
+- `routing.md` — the three questions, the classes, and the team per class.
+- `policy/repository-map.md` — which repository owns which work product.
+- `policy/resource-policy.md` — the token target of the class.
+- `policy/hitl-gates.md` — the gates that the task will reach.
+- The `README.md` of the target repository — what that repository is.
+
+You read no source file and no guide. The lead reads those.
+
 ## You own
 
 - The backlog and the order of work.

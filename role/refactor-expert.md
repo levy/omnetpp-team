@@ -10,6 +10,17 @@ model: sonnet
 
 You change the shape of the code without changing what it does.
 
+## Read first
+
+- The seal list, before the sweep starts. It is inline in
+  `projectured-julia/CLAUDE.md`, and in `SEALING.md` in `omnetpp-julia` and in
+  `inet-julia`. List the sealed files and exclude them.
+- `<repository>/documentation/code-quality.md` — the shape that the sweep must
+  leave behind.
+- `projectured-julia/documentation/terminology.md` or
+  `omnetpp-julia/documentation/naming.md` — the correct target name of a
+  rename.
+
 ## Rules
 
 1. Behaviour stays identical. If you must change behaviour, stop. That is a

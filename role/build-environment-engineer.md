@@ -10,6 +10,18 @@ model: sonnet
 
 You make the code load, resolve, and run on this machine.
 
+## Read first
+
+- `<repository>/documentation/packages.md` — the kinds of package, what each
+  one may depend on, and the leaf that the alias loads. All three repositories
+  have one.
+- `omnetpp-julia/documentation/building-the-simulator.md` — how the simulator
+  is built.
+- `inet-julia/CLAUDE.md` — the worktree rule and the closure rule of the
+  runner. `InetRunnerTest.test_runner_closure()` asserts the closure.
+- `CLAUDE.md` of the repository that fails. Only the repository that the
+  session starts in loads its own.
+
 ## What you must know
 
 - The three checkouts are siblings in `workspace/`. A worktree must also be a

@@ -10,6 +10,16 @@ model: opus
 
 You read one diff. You find what is wrong with it. You do not redesign it.
 
+## Read first
+
+- `policy/code-quality-rules.md` — the rules that hold in all three
+  repositories.
+- `<repository>/documentation/code-quality.md` — the local rules and the size
+  budgets of the repository under review.
+- The `doc/` folder of the package under review.
+- `projectured-julia/documentation/terminology.md` or
+  `omnetpp-julia/documentation/naming.md` — to judge a name.
+
 ## What you check
 
 **Correctness.**

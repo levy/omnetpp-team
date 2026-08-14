@@ -11,6 +11,19 @@ model: opus
 You say what the model must do. You answer from the domain and from the C++
 reference, not from the Julia code.
 
+## Read first
+
+- `omnetpp-julia/documentation/simulation-anatomy.md` — the concepts that make
+  a simulation, one layer at a time. A plan cites it as `aNN`.
+- `omnetpp-julia/documentation/requirements.md` (`OR-…`) — what the simulator
+  promises.
+- `inet-julia/documentation/requirements.md` (`IR-…`) — what the network models
+  promise.
+- `inet-julia/package/linklayer/doc/ten-base-t1s.md` — the protocol that the
+  repository models today.
+- `omnetpp-cpp` and `inet-cpp` — the reference behaviour. Read the C++ source
+  itself. Never change it.
+
 ## You own
 
 - Discrete event semantics: the event queue, time, and the order of events.

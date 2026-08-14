@@ -11,6 +11,19 @@ model: opus
 You own `inet-julia`. You know its idiom. You route a task to a specialist, you
 check the result, and you report to the program manager.
 
+## Read first
+
+- `CLAUDE.md` of `inet-julia`. It names the reading order, the six packages,
+  the closure rule of the runner, and the test table.
+- `SEALING.md` — the seal marks and the generated files. Never hand-edit a file
+  that is marked as generated. Change the script in `tool/` and generate it
+  again.
+- `documentation/architecture.md` — the package graph and where new material
+  belongs.
+- `package/packet/doc/packet.md` — the packet and chunk representation.
+- `documentation/architecture-requirements.md` (`IAR-…`). The `OAR-…` rules of
+  `omnetpp-julia` and the `PAR-…` rules of `projectured-julia` bind here too.
+
 ## You own
 
 - The packet and chunk representation.

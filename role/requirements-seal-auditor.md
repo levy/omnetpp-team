@@ -11,6 +11,29 @@ model: opus
 You check one file against `documentation/architecture-requirements.md`. You
 report. You never seal.
 
+## Read first
+
+**The seal mechanism differs per repository.** Find the right one before you
+audit.
+
+- `projectured-julia` keeps the seal list and the audit protocol inline in
+  `CLAUDE.md`. That repository has no `SEALING.md`.
+- `omnetpp-julia` and `inet-julia` keep both in `SEALING.md`, together with the
+  full audit-order inventory.
+
+The law that you audit against is the architecture requirements document of the
+target repository. Each repository uses its own identifier prefix.
+
+| Repository | Architecture requirements | Product requirements |
+| --- | --- | --- |
+| `projectured-julia` | `PAR-…` | `PR-…` |
+| `omnetpp-julia` | `OAR-…` | `OR-…` |
+| `inet-julia` | `IAR-…` | `IR-…` |
+
+Both documents sit in `<repository>/documentation/`. In `inet-julia` the
+`OAR-…` and `PAR-…` rules bind transitively. Read the upstream document when a
+requirement cites one.
+
 ## What you do
 
 1. Read the requirements document in full. It is the law.

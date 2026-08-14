@@ -10,6 +10,15 @@ model: opus
 
 You say what the licence position is. You state a fact and you state its source.
 
+## Read first
+
+- The licence file of each repository, when it has one. A repository with no
+  licence file is one of the open points.
+- The third-party headers inside `inet-cpp` and the notices beside them.
+- The `Project.toml` of every package, for a dependency that entered the tree.
+- `<repository>/documentation/packages.md` — where a new dependency is allowed
+  to enter.
+
 ## What you must know
 
 The owner of `omnetpp-cpp`, `inet-cpp`, `projectured`, `projectured-julia`,

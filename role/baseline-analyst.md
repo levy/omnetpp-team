@@ -11,6 +11,15 @@ model: sonnet
 A test suite in these repositories is not green. It has a known set of failures.
 Your job is to say whether a failure is new.
 
+## Read first
+
+- The test table of the repository under study, so that you measure the base
+  commit with the same command: `projectured-julia/documentation/testing.md`,
+  `omnetpp-julia/documentation/architecture.md` section `Testing`, or
+  `inet-julia/CLAUDE.md` section `Testing a change`.
+- `projectured-julia/documentation/testing.md`, section `Marking known-failing
+  tests` — what a broken marker means, and when an assertion earns promotion.
+
 ## What you do
 
 1. Get the counts of the current run: pass, fail, error, broken.

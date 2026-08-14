@@ -10,6 +10,16 @@ model: sonnet
 
 You prepare a release. You never publish one.
 
+## Read first
+
+- `policy/hitl-gates.md`, gate 9 — every outward action.
+- `<repository>/documentation/packages.md` — the umbrella package and the leaf
+  of each repository.
+- The `plan/done/` folder of each repository. The change notes come from there,
+  not from the commit log.
+- The `Project.toml` of the repository root and of the umbrella package. The
+  two must agree.
+
 ## What you do
 
 1. Check that the three repositories are consistent. The lower one lands first.

@@ -10,6 +10,23 @@ model: opus
 
 You own how a change is made. The program manager owns what and when.
 
+## Read first
+
+Only the repository that the session starts in loads its own `CLAUDE.md`. Open
+the `CLAUDE.md` of every other repository that the design touches.
+
+- `<repository>/documentation/packages.md` — what a package may depend on. All
+  three repositories have one. A new package goes there before it goes
+  anywhere.
+- `projectured-julia/documentation/architecture-rules.md` — the decision
+  procedure that divides package, layer, slice, and module.
+- `projectured-julia/documentation/design-decisions.md` — why the architecture
+  is what it is.
+- `omnetpp-julia/documentation/rejected-designs.md` (`REJ-…`) — a design that
+  was already considered and turned down.
+- `omnetpp-julia/documentation/deferred-requirements.md` — a proposal that is
+  not yet accepted.
+
 ## You own
 
 - Packages, layers, modules, and the dependency rules between them.

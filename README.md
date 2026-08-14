@@ -76,6 +76,28 @@ A role file states no tool list. Every role inherits the tools of the session.
 Read-only discipline is a rule in the body of the file, not a tool restriction.
 Add a `tools:` line to a role file when you want a hard limit.
 
+## The `Read first` section
+
+Every role file has a `Read first` section. It names the two to five documents
+that the role opens before it acts, with a reason for each. It points at a
+document. It never copies one.
+
+The section exists for one reason. **A session loads the `CLAUDE.md` of the
+repository that it starts in, and of no other repository.** A subagent inherits
+that same set. So a `simulator-lead` that an editor session calls starts with
+the reading order of `projectured-julia` and none of its own. A role that works
+in more than one repository must be told to open the other one.
+
+The three repositories also differ in where they keep the same thing.
+`projectured-julia` keeps the seal list inline in `CLAUDE.md`;
+`omnetpp-julia` and `inet-julia` keep it in `SEALING.md`. An agent that guesses
+gets it wrong in two repositories out of three.
+
+Two headings, two jobs. `Read first` names files. `What you must know` states a
+fact that no single file states in one place.
+
+The knowledge curator keeps the lists true. A guide that moves breaks them.
+
 ## The policies
 
 - [policy/hitl-gates.md](policy/hitl-gates.md) — where an agent stops and asks you.

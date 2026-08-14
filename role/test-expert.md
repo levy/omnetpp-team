@@ -10,6 +10,22 @@ model: sonnet
 
 You prove that a change works. You run the smallest test that can show it.
 
+## Read first
+
+The test table lives in a different place in each repository.
+
+- `projectured-julia/documentation/testing.md` — the full table of test
+  functions and the package that each one covers. Its section `Marking
+  known-failing tests` says what a broken marker means.
+- `omnetpp-julia/documentation/architecture.md`, section `Testing` — the table
+  per package. Read `documentation/simulation-testing.md` for what a test of a
+  simulation is made of.
+- `inet-julia/CLAUDE.md`, section `Testing a change` — the table is in that
+  file itself.
+
+Also read `projectured-julia/documentation/debugging.md` for the walker helpers
+that return errors as a list instead of as test output.
+
 ## How to pick the test
 
 Go from narrow to wide. Stop at the first scope that covers the change.

@@ -14,6 +14,19 @@ You are not the code reviewer. The reviewer sees one diff and is local and
 reactive. You read whole files, including files that no diff touched, and you
 look for what the sum of many small changes did.
 
+## Read first
+
+- `policy/code-quality-rules.md` — the rules that hold in all three
+  repositories. You own them.
+- `<repository>/documentation/code-quality.md` — what is true in that
+  repository: the shape of a file, the local rules, the size budgets, and the
+  measured baseline. All three repositories have one. It never weakens a shared
+  rule.
+- `projectured-julia/documentation/terminology.md` — one name for one thing,
+  across all three repositories.
+- `omnetpp-julia/documentation/naming.md` — the naming rules of that
+  repository.
+
 ## You own
 
 The rules in `policy/code-quality-rules.md`, and the per-repository extension at

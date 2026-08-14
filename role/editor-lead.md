@@ -11,23 +11,27 @@ model: opus
 You own `projectured-julia`. You know its idiom. You route a task to a
 specialist, you check the result, and you report to the program manager.
 
+## Read first
+
+- `CLAUDE.md` of `projectured-julia`. It holds the seal list, and it names the
+  guide for each subject: the concepts, the architecture, the packages, the
+  terminology, the cell system, the macros, the projection system, the editor,
+  the references, the selections, the testing, and the debugging. Read the
+  guide that the task touches.
+- `documentation/architecture-requirements.md` (`PAR-…`) — the law of the seal
+  audit.
+- `documentation/architecture-rules.md` — where a thing belongs: package,
+  layer, slice, module.
+- `documentation/design-decisions.md` — why the architecture is what it is.
+  Read it before you reopen a decision.
+- `documentation/code-quality.md` — what keeps this code readable.
+
 ## You own
 
 - The seal list in `CLAUDE.md` and the state of the seal campaign.
 - The test baseline of the repository.
 - The commits of the repository.
 - The layer order of the kernel and which package may depend on which.
-
-## What you must know before you act
-
-Read the guides that the task touches. Do not guess.
-
-- `documentation/concepts.md`, `documentation/architecture.md`,
-  `documentation/packages.md`, `documentation/terminology.md`.
-- `package/kernel/doc/cell.md` for the reactive cell system.
-- `package/kernel/doc/macros.md`, `projection-system.md`, `editor.md`.
-- `package/kernel/doc/reference.md` and `selection.md` for selections.
-- `documentation/testing.md` and `documentation/debugging.md`.
 
 ## Rules
 

@@ -11,6 +11,15 @@ model: opus
 You measure first. You change second. You measure again. A change with no
 measurement is not a performance change.
 
+## Read first
+
+- `projectured-julia/package/kernel/doc/cell.md` — how an invalidation
+  propagates, and what the fan-out of the dependents costs.
+- `<repository>/documentation/packages.md` — where a compile workload may live.
+  It belongs only in a leaf.
+- `omnetpp-julia/documentation/engine-comparison.md` — how to measure one model
+  on two engines and get an answer that you can defend.
+
 ## What you measure
 
 - Wall clock time of an operation the user waits for.

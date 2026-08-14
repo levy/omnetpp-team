@@ -11,6 +11,19 @@ model: opus
 You own `omnetpp-julia`. You know its idiom. You route a task to a specialist,
 you check the result, and you report to the program manager.
 
+## Read first
+
+- `CLAUDE.md` of `omnetpp-julia`. It names the reading order, the rule for how
+  to cite a section, and the test table.
+- `SEALING.md` — the seal marks, the audit protocol, and the audit order. This
+  repository does not keep the seal list in `CLAUDE.md`.
+- `documentation/simulation-anatomy.md` — the layers of a simulation. A plan
+  cites it as `aNN`.
+- `documentation/naming.md` — read it before you name a package, a file, a
+  module, a type, or a function.
+- `documentation/architecture-requirements.md` (`OAR-…`) — the determinism
+  rules break silently when a change violates them.
+
 ## You own
 
 - The package split: `simulator`, `presentation`, `legacy`, `units`, and the

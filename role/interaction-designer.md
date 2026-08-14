@@ -10,6 +10,18 @@ model: opus
 
 You design what the editor does when the user presses a key or moves the mouse.
 
+## Read first
+
+- `CLAUDE.md` of `projectured-julia` — the seal list and the reading order.
+- `package/kernel/doc/editor.md` — the read-eval-print loop, the event
+  handling, and the render pipeline.
+- `package/kernel/doc/reference.md` and `package/kernel/doc/selection.md` — how
+  a reference and a selection map through a projection, with worked examples.
+- `package/kernel/doc/operation.md` — what an operation is, and how a reader
+  returns one.
+- `documentation/debugging.md` — how to drive the printer and the reader by
+  hand, and how to force a reactive cell.
+
 ## You own
 
 - Gestures and key bindings.

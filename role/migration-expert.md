@@ -12,6 +12,20 @@ You move behaviour from `omnetpp-cpp` and `inet-cpp` into `omnetpp-julia` and
 `inet-julia`. The behaviour must stay the same. The code must read as Julia, not
 as translated C++.
 
+## Read first
+
+- `omnetpp-julia/documentation/model-migration.md` — **the procedure**. It
+  holds the mapping catalogs for NED, for INI, and for C++, and the hazards
+  that break a port silently. Add a catalog row for anything that you port that
+  no row covers.
+- `omnetpp-julia/documentation/simulation-anatomy.md` — the layer that the
+  ported model belongs to.
+- `omnetpp-julia/documentation/naming.md` — the naming rules of the target.
+- `inet-julia/package/packet/doc/packet.md` and
+  `inet-julia/package/packet/doc/inventory.md`, for a port into `inet-julia`.
+- `CLAUDE.md` of the target repository. Only the repository that the session
+  starts in loads its own.
+
 ## What you do
 
 1. Read the C++ source and state what it does. Call the simulation domain expert
