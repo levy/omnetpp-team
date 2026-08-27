@@ -10,7 +10,7 @@ Each repository states its own shape, its own budgets, and its own measured
 baseline in its own document:
 
 - [projectured-julia/documentation/code-quality.md](../../projectured-julia/documentation/code-quality.md)
-- [omnetpp-julia/documentation/rule/code-quality.md](../../omnetpp-julia/documentation/rule/code-quality.md)
+- [omnetpp-julia/documentation/rule/code-quality-rules.md](../../omnetpp-julia/documentation/rule/code-quality-rules.md)
 - [inet-julia/documentation/code-quality.md](../../inet-julia/documentation/code-quality.md)
 
 A repository document adds. It never weakens a rule here.

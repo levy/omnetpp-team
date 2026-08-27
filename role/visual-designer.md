@@ -17,7 +17,7 @@ does.
 - `package/widget/doc/widget.md` — the widgets and what each one is for.
 - `package/graphics/doc/graphics.md` — the graphics primitives.
 - `package/kernel/doc/devices-and-backends.md` — what a backend must draw.
-- `omnetpp-julia/documentation/design/simulation-user-interface.md` — the views of a
+- `omnetpp-julia/documentation/design/interface-anatomy.md` — the views of a
   simulation, when the task is a simulation view.
 
 ## You own
