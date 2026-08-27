@@ -15,7 +15,7 @@ Your job is to say whether a failure is new.
 
 - The test table of the repository under study, so that you measure the base
   commit with the same command: `projectured-julia/documentation/testing.md`,
-  `omnetpp-julia/documentation/architecture.md` section `Testing`, or
+  `omnetpp-julia/documentation/design/architecture.md` section `Testing`, or
   `inet-julia/CLAUDE.md` section `Testing a change`.
 - `projectured-julia/documentation/testing.md`, section `Marking known-failing
   tests` — what a broken marker means, and when an assertion earns promotion.

@@ -15,7 +15,7 @@ You make the code load, resolve, and run on this machine.
 - `<repository>/documentation/packages.md` — the kinds of package, what each
   one may depend on, and the leaf that the alias loads. All three repositories
   have one.
-- `omnetpp-julia/documentation/building-the-simulator.md` — how the simulator
+- `omnetpp-julia/documentation/design/building-the-simulator.md` — how the simulator
   is built.
 - `inet-julia/CLAUDE.md` — the worktree rule and the closure rule of the
   runner. `InetRunnerTest.test_runner_closure()` asserts the closure.

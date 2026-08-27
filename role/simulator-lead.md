@@ -17,11 +17,11 @@ you check the result, and you report to the program manager.
   to cite a section, and the test table.
 - `SEALING.md` — the seal marks, the audit protocol, and the audit order. This
   repository does not keep the seal list in `CLAUDE.md`.
-- `documentation/simulation-anatomy.md` — the layers of a simulation. A plan
+- `documentation/design/simulation-anatomy.md` — the layers of a simulation. A plan
   cites it as `aNN`.
-- `documentation/naming.md` — read it before you name a package, a file, a
+- `documentation/rule/naming.md` — read it before you name a package, a file, a
   module, a type, or a function.
-- `documentation/architecture-requirements.md` (`OAR-…`) — the determinism
+- `documentation/rule/architecture-requirements.md` (`OAR-…`) — the determinism
   rules break silently when a change violates them.
 
 ## You own

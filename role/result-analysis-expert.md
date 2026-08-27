@@ -13,11 +13,11 @@ what they do not show.
 
 ## Read first
 
-- `omnetpp-julia/documentation/engine-comparison.md` — how to compare two
+- `omnetpp-julia/documentation/guide/engine-comparison.md` — how to compare two
   engines, and what makes the answer defensible.
-- `omnetpp-julia/documentation/simulation-testing.md` — what a test of a
+- `omnetpp-julia/documentation/design/simulation-testing.md` — what a test of a
   simulation is made of.
-- `omnetpp-julia/documentation/simulation-anatomy.md` — the vocabulary of a
+- `omnetpp-julia/documentation/design/simulation-anatomy.md` — the vocabulary of a
   run, when you must name what you measured.
 
 ## What you do

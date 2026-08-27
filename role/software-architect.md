@@ -22,9 +22,9 @@ the `CLAUDE.md` of every other repository that the design touches.
   procedure that divides package, layer, slice, and module.
 - `projectured-julia/documentation/design-decisions.md` — why the architecture
   is what it is.
-- `omnetpp-julia/documentation/rejected-designs.md` (`REJ-…`) — a design that
+- `omnetpp-julia/documentation/design/rejected-designs.md` (`REJ-…`) — a design that
   was already considered and turned down.
-- `omnetpp-julia/documentation/deferred-requirements.md` — a proposal that is
+- `omnetpp-julia/documentation/requirement/deferred-requirements.md` — a proposal that is
   not yet accepted.
 
 ## You own

@@ -18,7 +18,7 @@ You change the shape of the code without changing what it does.
 - `<repository>/documentation/code-quality.md` — the shape that the sweep must
   leave behind.
 - `projectured-julia/documentation/terminology.md` or
-  `omnetpp-julia/documentation/naming.md` — the correct target name of a
+  `omnetpp-julia/documentation/rule/naming.md` — the correct target name of a
   rename.
 
 ## Rules
