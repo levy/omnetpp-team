@@ -57,6 +57,8 @@ so that you can call the role on its own.
 
 Most tasks use two or three roles. [routing.md](routing.md) says which.
 
+[workflow.md](workflow.md) says how a change walks from a goal to `main`.
+
 ## How a role file works
 
 A role file is two things at once. It is the description that you read. It is
