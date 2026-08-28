@@ -69,9 +69,10 @@ needed — a sweep, a measurement, a review.
   and write its output to a file.
 - **Stop at a gate.** State the choice, give your recommendation, and wait. The
   gates that appear most: a plan before code, a sealed file, a new
-  `@test_broken`, a commit, and a merge to `main`.
-- **Commit with explicit paths.** The human works in the same checkout, and
-  other sessions may hold uncommitted work.
+  `@test_broken`, and a merge to `main`.
+- **Commit with explicit paths.** An agent commits its own work on a plan
+  branch. In the checkout that the human shares it commits only when asked, and
+  other sessions may hold uncommitted work there.
 - **A sealed file is frozen.** `projectured-julia` keeps the list inline in
   `CLAUDE.md`; `omnetpp-julia` and `inet-julia` keep it in `SEALING.md`.
 

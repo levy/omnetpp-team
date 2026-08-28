@@ -53,7 +53,8 @@ decision that the plan did not settle.
 
 ## Stop and ask
 
-A sealed file. A design question that the plan did not answer. A commit.
+A sealed file. A design question that the plan did not answer. A commit in the
+checkout that the human shares.
 
 ## What you return
 

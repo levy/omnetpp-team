@@ -17,8 +17,11 @@ recommendation, and waits.
    never offers to seal before it reports the audit result.
 5. **The test baseline.** A new `@test_broken` marker, or any move of a
    recorded baseline count.
-6. **A commit.** The human works in the same checkout. An agent commits only
-   when the human asks, and always with explicit paths.
+6. **A commit outside a plan branch.** On its own plan branch an agent commits
+   its own work, one commit per plan step. The approved plan is the permission.
+   In the checkout that the human shares, an agent commits only when the human
+   asks. Name explicit paths in every commit: other work there can be
+   uncommitted.
 7. **A merge to `main`.** In any of the three repositories.
 8. **A large cleanup.** The code quality steward proposes. The human accepts a
    rule into the written rules document before any sweep starts.

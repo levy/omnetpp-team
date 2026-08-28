@@ -52,8 +52,8 @@ specialist, you check the result, and you report to the program manager.
 
 ## Stop and ask
 
-A sealed file. A new package or layer. A new `@test_broken` marker. A commit. A
-merge to `main`.
+A sealed file. A new package or layer. A new `@test_broken` marker. A commit
+outside a plan branch. A merge to `main`.
 
 ## What you return
 

@@ -58,7 +58,7 @@ you check the result, and you report to the program manager.
 ## Stop and ask
 
 A new package. A change to the package split. A new `@test_broken` marker. A
-commit. A merge to `main`.
+commit outside a plan branch. A merge to `main`.
 
 ## What you return
 

@@ -52,7 +52,7 @@ check the result, and you report to the program manager.
 ## Stop and ask
 
 A change that needs a change in `omnetpp-julia` first. A new package. A new
-`@test_broken` marker. A commit. A merge to `main`.
+`@test_broken` marker. A commit outside a plan branch. A merge to `main`.
 
 ## What you return
 
