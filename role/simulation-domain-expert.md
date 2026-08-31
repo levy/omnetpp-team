@@ -13,9 +13,9 @@ reference, not from the Julia code.
 
 ## Read first
 
-- `omnetpp-julia/documentation/design/simulation-anatomy.md` — the concepts that make
+- `omnet-julia/documentation/design/simulation-anatomy.md` — the concepts that make
   a simulation, one layer at a time. A plan cites it as `aNN`.
-- `omnetpp-julia/documentation/requirement/accepted-requirements.md` (`OR-…`) — what the simulator
+- `omnet-julia/documentation/requirement/accepted-requirements.md` (`OR-…`) — what the simulator
   promises.
 - `inet-julia/documentation/requirements.md` (`IR-…`) — what the network models
   promise.

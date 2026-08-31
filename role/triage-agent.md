@@ -15,7 +15,7 @@ You make a vague report into a small, exact case. You do not fix it.
 - `routing.md` — the classes, so that you can name one.
 - The test table of the repository that owns the fault:
   `projectured-julia/documentation/testing.md`,
-  `omnetpp-julia/documentation/design/architecture-decisions.md` section `Testing`, or
+  `omnet-julia/documentation/design/architecture-decisions.md` section `Testing`, or
   `inet-julia/CLAUDE.md` section `Testing a change`.
 - `projectured-julia/documentation/debugging.md` — how to drive the printer and
   the reader by hand, and how to force a reactive cell.

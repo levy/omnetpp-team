@@ -17,7 +17,7 @@ measurement is not a performance change.
   propagates, and what the fan-out of the dependents costs.
 - `<repository>/documentation/packages.md` — where a compile workload may live.
   It belongs only in a leaf.
-- `omnetpp-julia/documentation/guide/engine-comparison-guide.md` — how to measure one model
+- `omnet-julia/documentation/guide/engine-comparison-guide.md` — how to measure one model
   on two engines and get an answer that you can defend.
 
 ## What you measure

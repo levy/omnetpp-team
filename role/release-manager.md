@@ -30,7 +30,7 @@ You prepare a release. You never publish one.
 
 ## Rules
 
-1. The dependency order is `projectured-julia`, then `omnetpp-julia`, then
+1. The dependency order is `projectured-julia`, then `omnet-julia`, then
    `inet-julia`. Release in that order.
 2. A path dependency must not reach into a worktree in a release.
 3. Write the change notes from the plans, not from the commit log. A plan says

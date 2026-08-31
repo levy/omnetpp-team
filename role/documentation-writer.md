@@ -18,7 +18,7 @@ code is today.
   repositories.
 - `<repository>/documentation/code-quality.md` — the comment discipline of the
   repository.
-- `omnetpp-julia/CLAUDE.md`, section `Citing a section` — how to cite a section
+- `omnet-julia/CLAUDE.md`, section `Citing a section` — how to cite a section
   of another file. A bare section mark means the file that the reader is in.
 - The `README.md` of the repository — the reading order that you update when
   you add a guide.

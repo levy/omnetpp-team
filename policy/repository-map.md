@@ -27,7 +27,7 @@ The three leads agree on the seam first. Then each lead runs its own plan.
 
 ## The dependency direction
 
-`inet-julia` depends on `omnetpp-julia`. `omnetpp-julia` depends on
+`inet-julia` depends on `omnet-julia`. `omnet-julia` depends on
 `projectured-julia`. The direction never reverses. A change flows from
 `projectured-julia` upward.
 

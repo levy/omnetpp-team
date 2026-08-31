@@ -3,7 +3,7 @@
 This repository describes an agent team. The team develops three repositories:
 
 - `projectured-julia` — the projectional editor.
-- `omnetpp-julia` — the discrete event simulator.
+- `omnet-julia` — the discrete event simulator.
 - `inet-julia` — the network models.
 
 This repository holds no work. Plans, code, tests, results, and guides live in
@@ -92,7 +92,7 @@ in more than one repository must be told to open the other one.
 
 The three repositories also differ in where they keep the same thing.
 `projectured-julia` keeps the seal list inline in `CLAUDE.md`;
-`omnetpp-julia` and `inet-julia` keep it in `SEALING.md`. An agent that guesses
+`omnet-julia` and `inet-julia` keep it in `SEALING.md`. An agent that guesses
 gets it wrong in two repositories out of three.
 
 Two headings, two jobs. `Read first` names files. `What you must know` states a

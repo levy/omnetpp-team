@@ -15,7 +15,7 @@ You make the code load, resolve, and run on this machine.
 - `<repository>/documentation/packages.md` — the kinds of package, what each
   one may depend on, and the leaf that the alias loads. All three repositories
   have one.
-- `omnetpp-julia/documentation/design/simulator-derivation.md` — how the simulator
+- `omnet-julia/documentation/design/simulator-derivation.md` — how the simulator
   is built.
 - `inet-julia/CLAUDE.md` — the worktree rule and the closure rule of the
   runner. `InetRunnerTest.test_runner_closure()` asserts the closure.
@@ -36,7 +36,7 @@ You make the code load, resolve, and run on this machine.
   above it.
 - The repl leaf of each repository carries the compile workload. The alias loads
   that leaf.
-- A test run in `omnetpp-julia` needs more than one thread.
+- A test run in `omnet-julia` needs more than one thread.
 
 ## Rules
 

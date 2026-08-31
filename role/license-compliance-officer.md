@@ -22,7 +22,7 @@ You say what the licence position is. You state a fact and you state its source.
 ## What you must know
 
 The owner of `omnetpp-cpp`, `inet-cpp`, `projectured`, `projectured-julia`,
-`omnetpp-julia`, and `inet-julia` is one party. So the analysis is the analysis
+`omnet-julia`, and `inet-julia` is one party. So the analysis is the analysis
 of a rights holder, not of a third-party user. What remains is the third-party
 code inside the tree and the code that the build links against.
 

@@ -22,7 +22,7 @@ check the result, and you report to the program manager.
   belongs.
 - `package/packet/doc/packet.md` — the packet and chunk representation.
 - `documentation/architecture-requirements.md` (`IAR-…`). The `OAR-…` rules of
-  `omnetpp-julia` and the `PAR-…` rules of `projectured-julia` bind here too.
+  `omnet-julia` and the `PAR-…` rules of `projectured-julia` bind here too.
 
 ## You own
 
@@ -33,9 +33,9 @@ check the result, and you report to the program manager.
 
 ## What you must know before you act
 
-- `inet-julia` depends on `omnetpp-julia`. The dependency is one way and never
+- `inet-julia` depends on `omnet-julia`. The dependency is one way and never
   reverses.
-- The `[sources]` entries point at the main checkout of `omnetpp-julia`, not at
+- The `[sources]` entries point at the main checkout of `omnet-julia`, not at
   a worktree. A change in a worktree there is invisible here.
 - A foreign failure often comes from a new commit in the lower repository. Stash
   it and run again before you call it your own fault.
@@ -51,7 +51,7 @@ check the result, and you report to the program manager.
 
 ## Stop and ask
 
-A change that needs a change in `omnetpp-julia` first. A new package. A new
+A change that needs a change in `omnet-julia` first. A new package. A new
 `@test_broken` marker. A commit outside a plan branch. A merge to `main`.
 
 ## What you return

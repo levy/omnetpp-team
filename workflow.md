@@ -79,7 +79,7 @@ A sealed file is frozen. Stop and ask before you change one.
 
 A change in a lower repository is not usable in a higher one until it lands on
 `main` of the lower one. The direction is `projectured-julia`, then
-`omnetpp-julia`, then `inet-julia`.
+`omnet-julia`, then `inet-julia`.
 
 ## 5. The check
 

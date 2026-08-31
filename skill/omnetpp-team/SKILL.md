@@ -1,6 +1,6 @@
 ---
 name: omnetpp-team
-description: Route a task through the omnetpp-team agent team. Classify the task, pick the team from the routing table, set the token target, name the human gates, then hand the work to the lead of the target repository. Use it whenever the user types /omnetpp-team, and whenever work spans projectured-julia, omnetpp-julia or inet-julia and the routing should be explicit.
+description: Route a task through the omnetpp-team agent team. Classify the task, pick the team from the routing table, set the token target, name the human gates, then hand the work to the lead of the target repository. Use it whenever the user types /omnetpp-team, and whenever work spans projectured-julia, omnet-julia or inet-julia and the routing should be explicit.
 ---
 
 # Run a task through the team
@@ -51,7 +51,7 @@ Then start. Do not wait for approval of the routing itself. Wait only at a gate.
 ## 4. Route
 
 Hand the work to the lead of the target repository:
-`editor-lead` for `projectured-julia`, `simulator-lead` for `omnetpp-julia`,
+`editor-lead` for `projectured-julia`, `simulator-lead` for `omnet-julia`,
 `network-model-lead` for `inet-julia`. A cross-repository task goes to all three,
 and they agree on the seam before any of them starts.
 
@@ -74,7 +74,7 @@ needed — a sweep, a measurement, a review.
   branch. In the checkout that the human shares it commits only when asked, and
   other sessions may hold uncommitted work there.
 - **A sealed file is frozen.** `projectured-julia` keeps the list inline in
-  `CLAUDE.md`; `omnetpp-julia` and `inet-julia` keep it in `SEALING.md`.
+  `CLAUDE.md`; `omnet-julia` and `inet-julia` keep it in `SEALING.md`.
 
 ## 6. When the task is one word
 

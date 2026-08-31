@@ -17,7 +17,7 @@ The test table lives in a different place in each repository.
 - `projectured-julia/documentation/testing.md` — the full table of test
   functions and the package that each one covers. Its section `Marking
   known-failing tests` says what a broken marker means.
-- `omnetpp-julia/documentation/design/architecture-decisions.md`, section `Testing` — the table
+- `omnet-julia/documentation/design/architecture-decisions.md`, section `Testing` — the table
   per package. Read `documentation/simulation-testing.md` for what a test of a
   simulation is made of.
 - `inet-julia/CLAUDE.md`, section `Testing a change` — the table is in that

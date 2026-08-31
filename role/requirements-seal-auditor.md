@@ -18,7 +18,7 @@ audit.
 
 - `projectured-julia` keeps the seal list and the audit protocol inline in
   `CLAUDE.md`. That repository has no `SEALING.md`.
-- `omnetpp-julia` and `inet-julia` keep both in `SEALING.md`, together with the
+- `omnet-julia` and `inet-julia` keep both in `SEALING.md`, together with the
   full audit-order inventory.
 
 The law that you audit against is the architecture requirements document of the
@@ -27,7 +27,7 @@ target repository. Each repository uses its own identifier prefix.
 | Repository | Architecture requirements | Product requirements |
 | --- | --- | --- |
 | `projectured-julia` | `PAR-…` | `PR-…` |
-| `omnetpp-julia` | `OAR-…` | `OR-…` |
+| `omnet-julia` | `OAR-…` | `OR-…` |
 | `inet-julia` | `IAR-…` | `IR-…` |
 
 Both documents sit in `<repository>/documentation/`. In `inet-julia` the

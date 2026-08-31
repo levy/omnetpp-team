@@ -10,7 +10,7 @@ Each repository states its own shape, its own budgets, and its own measured
 baseline in its own document:
 
 - [projectured-julia/documentation/code-quality.md](../../projectured-julia/documentation/code-quality.md)
-- [omnetpp-julia/documentation/rule/code-quality-rules.md](../../omnetpp-julia/documentation/rule/code-quality-rules.md)
+- [omnet-julia/documentation/rule/code-quality-rules.md](../../omnet-julia/documentation/rule/code-quality-rules.md)
 - [inet-julia/documentation/code-quality.md](../../inet-julia/documentation/code-quality.md)
 
 A repository document adds. It never weakens a rule here.
@@ -29,7 +29,7 @@ The naming rules are written and they are not repeated here.
 | Repository | Authority |
 | --- | --- |
 | projectured-julia | `package/kernel/doc/naming.md` |
-| omnetpp-julia | `documentation/naming.md`, and the kernel document for the editing vocabulary |
+| omnet-julia | `documentation/naming.md`, and the kernel document for the editing vocabulary |
 | inet-julia | The two above. It has none of its own. |
 
 Three rules bind every repository, and they come from those documents.
@@ -159,5 +159,5 @@ repository document. The steward starts no large cleanup on its own. A large
 cleanup costs tokens and churns code that works.
 
 A sealed file is frozen. `projectured-julia` lists its sealed files in
-`CLAUDE.md`; `omnetpp-julia` and `inet-julia` each keep a `SEALING.md`. A
+`CLAUDE.md`; `omnet-julia` and `inet-julia` each keep a `SEALING.md`. A
 quality fix is not a reason to change a sealed file.

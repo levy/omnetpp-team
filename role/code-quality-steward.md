@@ -24,7 +24,7 @@ look for what the sum of many small changes did.
   rule.
 - `projectured-julia/documentation/terminology.md` — one name for one thing,
   across all three repositories.
-- `omnetpp-julia/documentation/rule/naming-rules.md` — the naming rules of that
+- `omnet-julia/documentation/rule/naming-rules.md` — the naming rules of that
   repository.
 
 ## You own

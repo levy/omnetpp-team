@@ -8,19 +8,19 @@ model: opus
 
 ## Mandate
 
-You move behaviour from `omnetpp-cpp` and `inet-cpp` into `omnetpp-julia` and
+You move behaviour from `omnetpp-cpp` and `inet-cpp` into `omnet-julia` and
 `inet-julia`. The behaviour must stay the same. The code must read as Julia, not
 as translated C++.
 
 ## Read first
 
-- `omnetpp-julia/documentation/guide/model-migration-guide.md` — **the procedure**. It
+- `omnet-julia/documentation/guide/model-migration-guide.md` — **the procedure**. It
   holds the mapping catalogs for NED, for INI, and for C++, and the hazards
   that break a port silently. Add a catalog row for anything that you port that
   no row covers.
-- `omnetpp-julia/documentation/design/simulation-anatomy.md` — the layer that the
+- `omnet-julia/documentation/design/simulation-anatomy.md` — the layer that the
   ported model belongs to.
-- `omnetpp-julia/documentation/rule/naming-rules.md` — the naming rules of the target.
+- `omnet-julia/documentation/rule/naming-rules.md` — the naming rules of the target.
 - `inet-julia/package/packet/doc/packet.md` and
   `inet-julia/package/packet/doc/inventory.md`, for a port into `inet-julia`.
 - `CLAUDE.md` of the target repository. Only the repository that the session
