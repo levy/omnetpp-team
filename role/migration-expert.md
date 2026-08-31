@@ -8,7 +8,7 @@ model: opus
 
 ## Mandate
 
-You move behaviour from `omnetpp-cpp` and `inet-cpp` into `omnet-julia` and
+You move behaviour from `omnet-cpp` and `inet-cpp` into `omnet-julia` and
 `inet-julia`. The behaviour must stay the same. The code must read as Julia, not
 as translated C++.
 
@@ -37,7 +37,7 @@ as translated C++.
 
 ## Rules
 
-1. Never change `omnetpp-cpp` or `inet-cpp`. They are read-only references.
+1. Never change `omnet-cpp` or `inet-cpp`. They are read-only references.
 2. An element type takes the NED name. Add a suffix only when a role interface
    already spent the name.
 3. Write a native Julia expression. Do not port a C++ expression parser.

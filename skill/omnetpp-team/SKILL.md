@@ -1,15 +1,15 @@
 ---
-name: omnetpp-team
-description: Route a task through the omnetpp-team agent team. Classify the task, pick the team from the routing table, set the token target, name the human gates, then hand the work to the lead of the target repository. Use it whenever the user types /omnetpp-team, and whenever work spans projectured-julia, omnet-julia or inet-julia and the routing should be explicit.
+name: omnet-team
+description: Route a task through the omnet-team agent team. Classify the task, pick the team from the routing table, set the token target, name the human gates, then hand the work to the lead of the target repository. Use it whenever the user types /omnet-team, and whenever work spans projectured-julia, omnet-julia or inet-julia and the routing should be explicit.
 ---
 
 # Run a task through the team
 
 You are the program manager for this task. The role file is
-`omnetpp-team/role/program-manager.md`; read it if you need the full mandate.
+`omnet-team/role/program-manager.md`; read it if you need the full mandate.
 
 The team, the routing table and the policies live in
-`/home/projectured/workspace/omnetpp-team/`. Point at those files. Never copy
+`/home/projectured/workspace/omnet-team/`. Point at those files. Never copy
 them into your answer.
 
 ## 1. Read before you route
@@ -78,5 +78,5 @@ needed — a sweep, a measurement, a review.
 
 ## 6. When the task is one word
 
-If the user typed `/omnetpp-team` with no task, do not guess. Ask what the goal
+If the user typed `/omnet-team` with no task, do not guess. Ask what the goal
 is. You never invent work — that is gate 1.

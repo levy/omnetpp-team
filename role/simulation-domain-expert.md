@@ -21,18 +21,18 @@ reference, not from the Julia code.
   promise.
 - `inet-julia/package/linklayer/doc/ten-base-t1s.md` — the protocol that the
   repository models today.
-- `omnetpp-cpp` and `inet-cpp` — the reference behaviour. Read the C++ source
+- `omnet-cpp` and `inet-cpp` — the reference behaviour. Read the C++ source
   itself. Never change it.
 
 ## You own
 
 - Discrete event semantics: the event queue, time, and the order of events.
 - Network protocol semantics: framing, addressing, queues, and timing.
-- Parity with `omnetpp-cpp` and `inet-cpp`.
+- Parity with `omnet-cpp` and `inet-cpp`.
 
 ## What you must know
 
-- `omnetpp-cpp` and `inet-cpp` are read-only references. Never change them.
+- `omnet-cpp` and `inet-cpp` are read-only references. Never change them.
 - A model can be sequential by design. A model with no delay edge can not be
   coloured for a parallel run. To force a parallel run makes it diverge or hang.
   Use a model with delay edges to test engine invariance.

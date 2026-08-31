@@ -1,4 +1,4 @@
-# omnetpp-team
+# omnet-team
 
 This repository describes an agent team. The team develops three repositories:
 
@@ -68,7 +68,7 @@ also the runtime definition of a Claude Code subagent. The frontmatter carries
 The file is the only copy. Each repository links to it:
 
 ```sh
-ln -s ../../omnetpp-team/role <repository>/.claude/agents
+ln -s ../../omnet-team/role <repository>/.claude/agents
 ```
 
 The three checkouts are siblings in `workspace/`, so the relative link holds.

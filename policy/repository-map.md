@@ -14,8 +14,8 @@ the repository that owns it.
 | A cross-cutting guide | `<repository>/documentation/` |
 | The code quality rules of a repository | `<repository>/documentation/code-quality.md` |
 | The spend record | `<repository>/plan/spend.md` |
-| A role description | `omnetpp-team/role/` |
-| A team policy | `omnetpp-team/policy/` |
+| A role description | `omnet-team/role/` |
+| A team policy | `omnet-team/policy/` |
 
 ## When a task touches more than one repository
 
@@ -37,5 +37,5 @@ not at a worktree.
 
 ## The C++ references
 
-`omnetpp-cpp` and `inet-cpp` are read-only references. The migration expert and
+`omnet-cpp` and `inet-cpp` are read-only references. The migration expert and
 the simulation domain expert read them. No agent changes them.

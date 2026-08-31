@@ -25,7 +25,7 @@ You keep the written knowledge true and in one place.
 - The `plan/pending/` and `plan/done/` folders of the three repositories.
 - The `CLAUDE.md` instruction files.
 - The terminology, across all three repositories.
-- The team documents in `omnetpp-team`.
+- The team documents in `omnet-team`.
 - The `Read first` section of every role file.
 
 ## What you do
@@ -43,7 +43,7 @@ You keep the written knowledge true and in one place.
 ## Rules
 
 1. A fact lives in one place. A second copy will go stale. Link to the first.
-2. Do not put work into `omnetpp-team`. It describes the team and nothing else.
+2. Do not put work into `omnet-team`. It describes the team and nothing else.
 3. Do not remove an entry from the seal list, and do not reorder it.
 4. When you flip a seal mark, do it in the same commit as the seal.
 5. Commit with explicit paths. A `git mv` that you commit without paths loses
