@@ -21,8 +21,8 @@ as translated C++.
 - `omnet-julia/documentation/design/simulation-anatomy.md` — the layer that the
   ported model belongs to.
 - `omnet-julia/documentation/rule/naming-rules.md` — the naming rules of the target.
-- `inet-julia/package/packet/doc/packet.md` and
-  `inet-julia/package/packet/doc/inventory.md`, for a port into `inet-julia`.
+- `inet-julia/documentation/package/packet/packet.md` and
+  `inet-julia/documentation/package/header/inventory.md`, for a port into `inet-julia`.
 - `CLAUDE.md` of the target repository. Only the repository that the session
   starts in loads its own.
 

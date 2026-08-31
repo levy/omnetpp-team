@@ -11,7 +11,7 @@ baseline in its own document:
 
 - [projectured-julia/documentation/code-quality.md](../../projectured-julia/documentation/code-quality.md)
 - [omnet-julia/documentation/rule/code-quality-rules.md](../../omnet-julia/documentation/rule/code-quality-rules.md)
-- [inet-julia/documentation/code-quality.md](../../inet-julia/documentation/code-quality.md)
+- [inet-julia/documentation/rule/code-quality-rules.md](../../inet-julia/documentation/rule/code-quality-rules.md)
 
 A repository document adds. It never weakens a rule here.
 

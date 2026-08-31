@@ -17,9 +17,9 @@ reference, not from the Julia code.
   a simulation, one layer at a time. A plan cites it as `aNN`.
 - `omnet-julia/documentation/requirement/accepted-requirements.md` (`OR-…`) — what the simulator
   promises.
-- `inet-julia/documentation/requirements.md` (`IR-…`) — what the network models
+- `inet-julia/documentation/requirement/accepted-requirements.md` (`IR-…`) — what the network models
   promise.
-- `inet-julia/package/linklayer/doc/ten-base-t1s.md` — the protocol that the
+- `inet-julia/documentation/package/linklayer/ten-base-t1s.md` — the protocol that the
   repository models today.
 - `omnet-cpp` and `inet-cpp` — the reference behaviour. Read the C++ source
   itself. Never change it.
