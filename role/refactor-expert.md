@@ -15,9 +15,9 @@ You change the shape of the code without changing what it does.
 - The seal list, before the sweep starts. It is inline in
   `projectured-julia/CLAUDE.md`, and in `SEALING.md` in `omnet-julia` and in
   `inet-julia`. List the sealed files and exclude them.
-- `<repository>/documentation/code-quality.md` — the shape that the sweep must
+- `<repository>/documentation/rule/code-quality-rules.md` — the shape that the sweep must
   leave behind.
-- `projectured-julia/documentation/terminology.md` or
+- `projectured-julia/documentation/rule/division-terminology.md` or
   `omnet-julia/documentation/rule/naming-rules.md` — the correct target name of a
   rename.
 

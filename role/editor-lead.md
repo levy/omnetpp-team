@@ -24,7 +24,7 @@ specialist, you check the result, and you report to the program manager.
   layer, slice, module.
 - `documentation/design-decisions.md` — why the architecture is what it is.
   Read it before you reopen a decision.
-- `documentation/code-quality.md` — what keeps this code readable.
+- `documentation/rule/code-quality-rules.md` — what keeps this code readable.
 
 ## You own
 

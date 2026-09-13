@@ -17,7 +17,12 @@ repository, the design, and the idiom. You do not choose the design.
   it points at `SEALING.md`. Read it before you touch one file. Only the
   repository that the session starts in loads its own.
 - The `doc/` folder of the package that you change. Every package has one.
-- `<repository>/documentation/code-quality.md` — the shape of a file here.
+- `<repository>/documentation/rule/code-quality-rules.md` — the shape of a file here.
+- The naming document of the repository you write in. omnet-julia and inet-julia
+  both answer to `omnet-julia/documentation/rule/naming-rules.md`; projectured-julia
+  answers to its own. **Read §5 before you name a function.** It carries the verb
+  table, the word order, the dropped preposition and the `!` that an external side
+  effect takes. A name you write today is a name somebody has to rename later.
 - `projectured-julia/package/kernel/doc/macros.md` and
   `projectured-julia/package/kernel/doc/cell.md`, when the step touches a
   document, a projection, or a reactive field.

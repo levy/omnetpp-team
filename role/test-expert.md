@@ -25,6 +25,11 @@ The test table lives in a different place in each repository.
 
 Also read `projectured-julia/documentation/debugging.md` for the walker helpers
 that return errors as a list instead of as test output.
+- The naming document of the repository you write in. omnet-julia and inet-julia
+  both answer to `omnet-julia/documentation/rule/naming-rules.md`; projectured-julia
+  answers to its own. **Read §5 before you name a function.** It carries the verb
+  table, the word order, the dropped preposition and the `!` that an external side
+  effect takes. A name you write today is a name somebody has to rename later.
 
 ## How to pick the test
 

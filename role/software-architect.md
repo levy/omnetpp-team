@@ -26,6 +26,11 @@ the `CLAUDE.md` of every other repository that the design touches.
   was already considered and turned down.
 - `omnet-julia/documentation/requirement/candidate-requirements.md` — a proposal that is
   not yet accepted.
+- The naming document of the repository you write in. omnet-julia and inet-julia
+  both answer to `omnet-julia/documentation/rule/naming-rules.md`; projectured-julia
+  answers to its own. **Read §5 before you name a function.** It carries the verb
+  table, the word order, the dropped preposition and the `!` that an external side
+  effect takes. A name you write today is a name somebody has to rename later.
 
 ## You own
 

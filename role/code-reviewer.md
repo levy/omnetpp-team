@@ -14,10 +14,10 @@ You read one diff. You find what is wrong with it. You do not redesign it.
 
 - `policy/code-quality-rules.md` — the rules that hold in all three
   repositories.
-- `<repository>/documentation/code-quality.md` — the local rules and the size
+- `<repository>/documentation/rule/code-quality-rules.md` — the local rules and the size
   budgets of the repository under review.
 - The `doc/` folder of the package under review.
-- `projectured-julia/documentation/terminology.md` or
+- `projectured-julia/documentation/rule/division-terminology.md` or
   `omnet-julia/documentation/rule/naming-rules.md` — to judge a name.
 
 ## What you check

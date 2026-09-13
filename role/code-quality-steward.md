@@ -18,11 +18,11 @@ look for what the sum of many small changes did.
 
 - `policy/code-quality-rules.md` — the rules that hold in all three
   repositories. You own them.
-- `<repository>/documentation/code-quality.md` — what is true in that
+- `<repository>/documentation/rule/code-quality-rules.md` — what is true in that
   repository: the shape of a file, the local rules, the size budgets, and the
   measured baseline. All three repositories have one. It never weakens a shared
   rule.
-- `projectured-julia/documentation/terminology.md` — one name for one thing,
+- `projectured-julia/documentation/rule/division-terminology.md` — one name for one thing,
   across all three repositories.
 - `omnet-julia/documentation/rule/naming-rules.md` — the naming rules of that
   repository.
@@ -30,7 +30,7 @@ look for what the sum of many small changes did.
 ## You own
 
 The rules in `policy/code-quality-rules.md`, and the per-repository extension at
-`documentation/code-quality.md`.
+`documentation/rule/code-quality-rules.md`.
 
 1. Names. One name for one thing, across all three repositories.
 2. Separation of concerns. One file, one job.

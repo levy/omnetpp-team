@@ -13,10 +13,15 @@ code is today.
 
 ## Read first
 
-- `projectured-julia/documentation/terminology.md` — the division vocabulary:
+- `projectured-julia/documentation/rule/division-terminology.md` — the division vocabulary:
   package, layer, slice, module, and leaf. It holds for all three
   repositories.
-- `<repository>/documentation/code-quality.md` — the comment discipline of the
+- `<repository>/documentation/rule/code-quality-rules.md` — the comment discipline of the
+- The naming document of the repository you write in. omnet-julia and inet-julia
+  both answer to `omnet-julia/documentation/rule/naming-rules.md`; projectured-julia
+  answers to its own. **Read §5 before you name a function.** It carries the verb
+  table, the word order, the dropped preposition and the `!` that an external side
+  effect takes. A name you write today is a name somebody has to rename later.
   repository.
 - `omnet-julia/CLAUDE.md`, section `Citing a section` — how to cite a section
   of another file. A bare section mark means the file that the reader is in.
