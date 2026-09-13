@@ -13,7 +13,8 @@ does.
 
 ## Read first
 
-- `CLAUDE.md` of `projectured-julia` — the seal list and the reading order.
+- `CLAUDE.md` of `projectured-julia` — the reading order, and `SEALING.md` —
+  the seal list.
 - `package/widget/doc/widget.md` — the widgets and what each one is for.
 - `package/graphics/doc/graphics.md` — the graphics primitives.
 - `package/kernel/doc/devices-and-backends.md` — what a backend must draw.

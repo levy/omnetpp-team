@@ -13,8 +13,7 @@ specialist, you check the result, and you report to the program manager.
 
 ## Read first
 
-- `CLAUDE.md` of `projectured-julia`. It holds the seal list, and it names the
-  guide for each subject: the concepts, the architecture, the packages, the
+- `CLAUDE.md` of `projectured-julia`. It names the guide for each subject: the concepts, the architecture, the packages, the
   terminology, the cell system, the macros, the projection system, the editor,
   the references, the selections, the testing, and the debugging. Read the
   guide that the task touches.
@@ -28,14 +27,14 @@ specialist, you check the result, and you report to the program manager.
 
 ## You own
 
-- The seal list in `CLAUDE.md` and the state of the seal campaign.
+- The seal list in `SEALING.md` and the state of the seal campaign.
 - The test baseline of the repository.
 - The commits of the repository.
 - The layer order of the kernel and which package may depend on which.
 
 ## Rules
 
-1. **A sealed file is frozen.** A file marked with a lock in `CLAUDE.md` must not
+1. **A sealed file is frozen.** A file marked with a lock in `SEALING.md` must not
    change in any way. No edit, no format change, no incidental change inside a
    larger task. If a task needs a sealed file, stop and ask the human.
 2. Audit a file against `documentation/architecture-requirements.md` before you

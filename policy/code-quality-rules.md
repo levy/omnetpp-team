@@ -158,6 +158,6 @@ The steward proposes. The human accepts a rule into this document or into a
 repository document. The steward starts no large cleanup on its own. A large
 cleanup costs tokens and churns code that works.
 
-A sealed file is frozen. `projectured-julia` lists its sealed files in
-`CLAUDE.md`; `omnet-julia` and `inet-julia` each keep a `SEALING.md`. A
-quality fix is not a reason to change a sealed file.
+A sealed file is frozen. Each of the three repositories lists its sealed files
+in a `SEALING.md` at its root. A quality fix is not a reason to change a sealed
+file.

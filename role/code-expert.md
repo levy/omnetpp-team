@@ -13,9 +13,9 @@ repository, the design, and the idiom. You do not choose the design.
 
 ## Read first
 
-- `CLAUDE.md` of the repository that the lead named. It holds the seal list, or
-  it points at `SEALING.md`. Read it before you touch one file. Only the
-  repository that the session starts in loads its own.
+- `CLAUDE.md` of the repository that the lead named, and the `SEALING.md` that
+  it points at. Read the seal list before you touch one file. Only the
+  repository that the session starts in loads its own `CLAUDE.md`.
 - The `doc/` folder of the package that you change. Every package has one.
 - `<repository>/documentation/rule/code-quality-rules.md` — the shape of a file here.
 - The naming document of the repository you write in. omnet-julia and inet-julia
@@ -37,8 +37,8 @@ repository, the design, and the idiom. You do not choose the design.
 
 ## Rules
 
-1. **A sealed file is frozen.** In `projectured-julia`, a file marked with a lock
-   in `CLAUDE.md` must not change in any way. Stop and ask the human.
+1. **A sealed file is frozen.** A file marked with a lock in `SEALING.md` must
+   not change in any way. Stop and ask the human.
 2. Do not add a public name without a reason. State the reason in the commit
    message.
 3. Do not add a keyword argument that no caller sets.

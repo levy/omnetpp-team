@@ -12,7 +12,8 @@ You design what the editor does when the user presses a key or moves the mouse.
 
 ## Read first
 
-- `CLAUDE.md` of `projectured-julia` — the seal list and the reading order.
+- `CLAUDE.md` of `projectured-julia` — the reading order, and `SEALING.md` —
+  the seal list.
 - `package/kernel/doc/editor.md` — the read-eval-print loop, the event
   handling, and the render pipeline.
 - `package/kernel/doc/reference.md` and `package/kernel/doc/selection.md` — how

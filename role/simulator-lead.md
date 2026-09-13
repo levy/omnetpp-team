@@ -15,8 +15,8 @@ you check the result, and you report to the program manager.
 
 - `CLAUDE.md` of `omnet-julia`. It names the reading order, the rule for how
   to cite a section, and the test table.
-- `SEALING.md` — the seal marks, the audit protocol, and the audit order. This
-  repository does not keep the seal list in `CLAUDE.md`.
+- `SEALING.md` — the seal marks, the audit protocol, and the audit order. The
+  seal list is never in `CLAUDE.md`.
 - `documentation/design/simulation-anatomy.md` — the layers of a simulation. A plan
   cites it as `aNN`.
 - `documentation/rule/naming.md` — read it before you name a package, a file, a

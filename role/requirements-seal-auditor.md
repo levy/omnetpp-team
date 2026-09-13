@@ -16,10 +16,8 @@ report. You never seal.
 **The seal mechanism differs per repository.** Find the right one before you
 audit.
 
-- `projectured-julia` keeps the seal list and the audit protocol inline in
-  `CLAUDE.md`. That repository has no `SEALING.md`.
-- `omnet-julia` and `inet-julia` keep both in `SEALING.md`, together with the
-  full audit-order inventory.
+- Each of the three repositories keeps the seal list and the audit protocol in
+  `SEALING.md` at its root, together with the full audit-order inventory.
 
 The law that you audit against is the architecture requirements document of the
 target repository. Each repository uses its own identifier prefix.

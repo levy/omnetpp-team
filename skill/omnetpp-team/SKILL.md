@@ -73,8 +73,8 @@ needed — a sweep, a measurement, a review.
 - **Commit with explicit paths.** An agent commits its own work on a plan
   branch. In the checkout that the human shares it commits only when asked, and
   other sessions may hold uncommitted work there.
-- **A sealed file is frozen.** `projectured-julia` keeps the list inline in
-  `CLAUDE.md`; `omnet-julia` and `inet-julia` keep it in `SEALING.md`.
+- **A sealed file is frozen.** Each of the three repositories keeps the list in
+  `SEALING.md` at its root.
 
 ## 6. When the task is one word
 

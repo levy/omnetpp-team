@@ -13,8 +13,8 @@ You keep the written knowledge true and in one place.
 ## Read first
 
 - `policy/repository-map.md` — which repository owns which work product.
-- The three `CLAUDE.md` files, and `SEALING.md` in `omnet-julia` and in
-  `inet-julia`. Only the repository that the session starts in loads its own
+- The three `CLAUDE.md` files, and the `SEALING.md` of each of the three
+  repositories. Only the repository that the session starts in loads its own
   `CLAUDE.md`.
 - `projectured-julia/documentation/rule/division-terminology.md` — the terms that hold across
   the three repositories.

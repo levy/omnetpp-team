@@ -90,10 +90,8 @@ that same set. So a `simulator-lead` that an editor session calls starts with
 the reading order of `projectured-julia` and none of its own. A role that works
 in more than one repository must be told to open the other one.
 
-The three repositories also differ in where they keep the same thing.
-`projectured-julia` keeps the seal list inline in `CLAUDE.md`;
-`omnet-julia` and `inet-julia` keep it in `SEALING.md`. An agent that guesses
-gets it wrong in two repositories out of three.
+The three repositories keep the seal list in the same place. Each one keeps it
+in `SEALING.md` at its root, and its `CLAUDE.md` points there.
 
 Two headings, two jobs. `Read first` names files. `What you must know` states a
 fact that no single file states in one place.
