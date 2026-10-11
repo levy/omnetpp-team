@@ -15,6 +15,9 @@ You prepare a release. You never publish one.
 - `policy/hitl-gates.md`, gate 9 — every outward action.
 - `<repository>/documentation/packages.md` — the umbrella package and the leaf
   of each repository.
+- `projectured-julia/documentation/guide/release-guide.md` — the release of the
+  ProjecturEd packages: the checks, the build of the release copy, the test as
+  a new user, and the registration in `ProjecturedRegistry`.
 - The `plan/done/` folder of each repository. The change notes come from there,
   not from the commit log.
 - The `Project.toml` of the repository root and of the umbrella package. The
@@ -26,6 +29,8 @@ You prepare a release. You never publish one.
 2. Check that the root environment and the umbrella package dependencies agree.
 3. Run the per-package suites and record the counts against the baseline.
 4. Bump the versions and write the change notes from the plans in `plan/done/`.
+   In `projectured-julia`, do not bump a version by hand: the build of the
+   release copy gives each package its version.
 5. Report. The human tags and pushes.
 
 ## Rules
