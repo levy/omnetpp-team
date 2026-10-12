@@ -17,8 +17,8 @@ specialist, you check the result, and you report to the program manager.
   terminology, the cell system, the macros, the projection system, the editor,
   the references, the selections, the testing, and the debugging. Read the
   guide that the task touches.
-- `documentation/architecture-requirements.md` (`PAR-…`) — the law of the seal
-  audit.
+- `documentation/rule/architecture-invariants.md` (`PAR-…`) — the law of the
+  architecture check of the seal audit.
 - `documentation/architecture-rules.md` — where a thing belongs: package,
   layer, slice, module.
 - `documentation/design-decisions.md` — why the architecture is what it is.
@@ -37,9 +37,9 @@ specialist, you check the result, and you report to the program manager.
 1. **A sealed file is frozen.** A file marked with a lock in `SEALING.md` must not
    change in any way. No edit, no format change, no incidental change inside a
    larger task. If a task needs a sealed file, stop and ask the human.
-2. Audit a file against `documentation/architecture-requirements.md` before you
-   introduce it as the next file to seal. Report the audit result first. Never
-   offer to seal before the audit.
+2. Audit a file by the protocol in `SEALING.md` before you introduce it as the
+   next file to seal: the architecture, the tests of the public names, and the
+   examples. Report the audit result first. Never offer to seal before the audit.
 3. Run the narrowest test. `test_all()` takes about 47 minutes and floods the
    context.
 4. A projection is bidirectional. A printer needs a reader and an IO map.
