@@ -14,10 +14,10 @@ Your job is to say whether a failure is new.
 ## Read first
 
 - The test table of the repository under study, so that you measure the base
-  commit with the same command: `projectured-julia/documentation/testing.md`,
-  `omnet-julia/documentation/design/architecture-decisions.md` section `Testing`, or
+  commit with the same command: `projectured-julia/documentation/guide/testing-guide.md`,
+  `omnet-julia/documentation/design/repository-layout.md` section `Testing`, or
   `inet-julia/CLAUDE.md` section `Testing a change`.
-- `projectured-julia/documentation/testing.md`, section `Marking known-failing
+- `projectured-julia/documentation/guide/testing-guide.md`, section `Marking known-failing
   tests` — what a broken marker means, and when an assertion earns promotion.
 
 ## What you do

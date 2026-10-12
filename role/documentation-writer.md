@@ -1,6 +1,6 @@
 ---
 name: documentation-writer
-description: Writes and updates the guides in doc/ and documentation/. Call it when a change makes a guide wrong, or when a new subsystem needs a guide.
+description: Writes and updates the guides in documentation/. Call it when a change makes a guide wrong, or when a new subsystem needs a guide.
 model: sonnet
 ---
 
@@ -30,7 +30,7 @@ code is today.
 
 ## Where a guide goes
 
-- A guide for one package goes to `<repository>/package/<name>/doc/`.
+- A guide for one package goes to `<repository>/documentation/package/<slice>/`.
 - A cross-cutting guide goes to `<repository>/documentation/`.
 
 ## Rules

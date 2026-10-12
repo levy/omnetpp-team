@@ -15,12 +15,12 @@ You own how a change is made. The program manager owns what and when.
 Only the repository that the session starts in loads its own `CLAUDE.md`. Open
 the `CLAUDE.md` of every other repository that the design touches.
 
-- `<repository>/documentation/packages.md` — what a package may depend on. All
+- `<repository>/documentation/rule/package-rules.md` — what a package may depend on. All
   three repositories have one. A new package goes there before it goes
   anywhere.
-- `projectured-julia/documentation/architecture-rules.md` — the decision
+- `projectured-julia/documentation/rule/architecture-rules.md` — the decision
   procedure that divides package, layer, slice, and module.
-- `projectured-julia/documentation/design-decisions.md` — why the architecture
+- `projectured-julia/documentation/design/architecture-decisions.md` — why the architecture
   is what it is.
 - `omnet-julia/documentation/design/rejected-designs.md` (`REJ-…`) — a design that
   was already considered and turned down.
@@ -80,7 +80,7 @@ decision that the work discovered. Move the plan to `plan/done/` at the end.
 
 ## Rules
 
-- A package may depend only on what `documentation/packages.md` allows.
+- A package may depend only on what `documentation/rule/package-rules.md` allows.
 - A compile workload belongs only in a leaf.
 - A layer states its dependencies. It never states its index.
 - A cross-repository change gets one plan file per repository. Each names the

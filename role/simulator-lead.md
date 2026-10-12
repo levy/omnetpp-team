@@ -19,9 +19,9 @@ you check the result, and you report to the program manager.
   seal list is never in `CLAUDE.md`.
 - `documentation/design/simulation-anatomy.md` — the layers of a simulation. A plan
   cites it as `aNN`.
-- `documentation/rule/naming.md` — read it before you name a package, a file, a
+- `documentation/rule/naming-rules.md` — read it before you name a package, a file, a
   module, a type, or a function.
-- `documentation/rule/architecture-requirements.md` (`OAR-…`) — the determinism
+- `documentation/rule/architecture-invariants.md` (`OAR-…`) — the determinism
   rules break silently when a change violates them.
 
 ## You own

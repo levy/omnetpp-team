@@ -16,7 +16,7 @@ You read one diff. You find what is wrong with it. You do not redesign it.
   repositories.
 - `<repository>/documentation/rule/code-quality-rules.md` — the local rules and the size
   budgets of the repository under review.
-- The `doc/` folder of the package under review.
+- The document of the package under review, in `<repository>/documentation/package/`.
 - `projectured-julia/documentation/rule/division-terminology.md` or
   `omnet-julia/documentation/rule/naming-rules.md` — to judge a name.
 

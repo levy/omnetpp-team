@@ -14,13 +14,13 @@ You design what the editor does when the user presses a key or moves the mouse.
 
 - `CLAUDE.md` of `projectured-julia` — the reading order, and `SEALING.md` —
   the seal list.
-- `package/kernel/doc/editor.md` — the read-eval-print loop, the event
+- `documentation/package/kernel/editor.md` — the read-eval-print loop, the event
   handling, and the render pipeline.
-- `package/kernel/doc/reference.md` and `package/kernel/doc/selection.md` — how
+- `documentation/package/kernel/reference.md` and `documentation/package/kernel/selection.md` — how
   a reference and a selection map through a projection, with worked examples.
-- `package/kernel/doc/operation.md` — what an operation is, and how a reader
+- `documentation/package/kernel/operation.md` — what an operation is, and how a reader
   returns one.
-- `documentation/debugging.md` — how to drive the printer and the reader by
+- `documentation/guide/debugging-guide.md` — how to drive the printer and the reader by
   hand, and how to force a reactive cell.
 
 ## You own

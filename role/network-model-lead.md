@@ -18,10 +18,10 @@ check the result, and you report to the program manager.
 - `SEALING.md` — the seal marks and the generated files. Never hand-edit a file
   that is marked as generated. Change the script in `tool/` and generate it
   again.
-- `documentation/architecture.md` — the package graph and where new material
+- `documentation/rule/package-rules.md` — the package graph and where new material
   belongs.
-- `package/packet/doc/packet.md` — the packet and chunk representation.
-- `documentation/architecture-requirements.md` (`IAR-…`). The `OAR-…` rules of
+- `documentation/package/packet/packet.md` — the packet and chunk representation.
+- `documentation/rule/architecture-invariants.md` (`IAR-…`). The `OAR-…` rules of
   `omnet-julia` and the `PAR-…` rules of `projectured-julia` bind here too.
 
 ## You own

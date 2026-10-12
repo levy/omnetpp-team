@@ -19,9 +19,9 @@ specialist, you check the result, and you report to the program manager.
   guide that the task touches.
 - `documentation/rule/architecture-invariants.md` (`PAR-…`) — the law of the
   architecture check of the seal audit.
-- `documentation/architecture-rules.md` — where a thing belongs: package,
+- `documentation/rule/architecture-rules.md` — where a thing belongs: package,
   layer, slice, module.
-- `documentation/design-decisions.md` — why the architecture is what it is.
+- `documentation/design/architecture-decisions.md` — why the architecture is what it is.
   Read it before you reopen a decision.
 - `documentation/rule/code-quality-rules.md` — what keeps this code readable.
 

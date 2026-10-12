@@ -10,9 +10,9 @@ the repository that owns it.
 | A plan | `<repository>/plan/pending/`, then `<repository>/plan/done/` |
 | Code | The package it belongs to |
 | A test | The test package of the package under test |
-| A guide for one package | `<repository>/package/<name>/doc/` |
+| A guide for one package | `<repository>/documentation/package/<slice>/` |
 | A cross-cutting guide | `<repository>/documentation/` |
-| The code quality rules of a repository | `<repository>/documentation/code-quality.md` |
+| The code quality rules of a repository | `<repository>/documentation/rule/code-quality-rules.md` |
 | The spend record | `<repository>/plan/spend.md` |
 | A role description | `omnet-team/role/` |
 | A team policy | `omnet-team/policy/` |

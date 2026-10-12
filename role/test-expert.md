@@ -14,16 +14,16 @@ You prove that a change works. You run the smallest test that can show it.
 
 The test table lives in a different place in each repository.
 
-- `projectured-julia/documentation/testing.md` — the full table of test
+- `projectured-julia/documentation/guide/testing-guide.md` — the full table of test
   functions and the package that each one covers. Its section `Marking
   known-failing tests` says what a broken marker means.
-- `omnet-julia/documentation/design/architecture-decisions.md`, section `Testing` — the table
-  per package. Read `documentation/simulation-testing.md` for what a test of a
+- `omnet-julia/documentation/design/repository-layout.md`, section `Testing` — the table
+  per package. Read `omnet-julia/documentation/design/test-anatomy.md` for what a test of a
   simulation is made of.
 - `inet-julia/CLAUDE.md`, section `Testing a change` — the table is in that
   file itself.
 
-Also read `projectured-julia/documentation/debugging.md` for the walker helpers
+Also read `projectured-julia/documentation/guide/debugging-guide.md` for the walker helpers
 that return errors as a list instead of as test output.
 - The naming document of the repository you write in. omnet-julia and inet-julia
   both answer to `omnet-julia/documentation/rule/naming-rules.md`; projectured-julia

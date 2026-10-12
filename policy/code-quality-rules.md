@@ -28,8 +28,8 @@ The naming rules are written and they are not repeated here.
 
 | Repository | Authority |
 | --- | --- |
-| projectured-julia | `package/kernel/doc/naming.md` |
-| omnet-julia | `documentation/naming.md`, and the kernel document for the editing vocabulary |
+| projectured-julia | `documentation/rule/naming-rules.md` |
+| omnet-julia | `documentation/rule/naming-rules.md`, and `projectured-julia/documentation/package/kernel/operation.md` for the editing vocabulary |
 | inet-julia | The two above. It has none of its own. |
 
 Three rules bind every repository, and they come from those documents.

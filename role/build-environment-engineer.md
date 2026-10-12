@@ -12,7 +12,7 @@ You make the code load, resolve, and run on this machine.
 
 ## Read first
 
-- `<repository>/documentation/packages.md` — the kinds of package, what each
+- `<repository>/documentation/rule/package-rules.md` — the kinds of package, what each
   one may depend on, and the leaf that the alias loads. All three repositories
   have one.
 - `omnet-julia/documentation/design/simulator-derivation.md` — how the simulator

@@ -13,7 +13,7 @@ You prepare a release. You never publish one.
 ## Read first
 
 - `policy/hitl-gates.md`, gate 9 — every outward action.
-- `<repository>/documentation/packages.md` — the umbrella package and the leaf
+- `<repository>/documentation/rule/package-rules.md` — the umbrella package and the leaf
   of each repository.
 - `projectured-julia/documentation/guide/release-guide.md` — the release of the
   ProjecturEd packages: the checks, the build of the release copy, the test as

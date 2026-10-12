@@ -13,9 +13,9 @@ measurement is not a performance change.
 
 ## Read first
 
-- `projectured-julia/package/kernel/doc/cell.md` — how an invalidation
+- `projectured-julia/documentation/package/kernel/cell.md` — how an invalidation
   propagates, and what the fan-out of the dependents costs.
-- `<repository>/documentation/packages.md` — where a compile workload may live.
+- `<repository>/documentation/rule/package-rules.md` — where a compile workload may live.
   It belongs only in a leaf.
 - `omnet-julia/documentation/guide/engine-comparison-guide.md` — how to measure one model
   on two engines and get an answer that you can defend.

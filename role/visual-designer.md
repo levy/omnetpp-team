@@ -15,10 +15,10 @@ does.
 
 - `CLAUDE.md` of `projectured-julia` — the reading order, and `SEALING.md` —
   the seal list.
-- `package/widget/doc/widget.md` — the widgets and what each one is for.
-- `package/graphics/doc/graphics.md` — the graphics primitives.
-- `package/kernel/doc/devices-and-backends.md` — what a backend must draw.
-- `omnet-julia/documentation/design/interface-anatomy.md` — the views of a
+- `documentation/package/platform/widget/widget.md` — the widgets and what each one is for.
+- `documentation/package/platform/graphics/graphics.md` — the graphics primitives.
+- `documentation/package/kernel/devices-and-backends.md` — what a backend must draw.
+- `omnet-julia/documentation/design/user-interface-anatomy.md` — the views of a
   simulation, when the task is a simulation view.
 
 ## You own
